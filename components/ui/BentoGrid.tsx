@@ -57,7 +57,7 @@ export const BentoGridItem = ({
             <img
               src={img}
               alt={img}
-              className={cn(imgClassName, "object-CgOverflow, object-center")}
+              className={cn(imgClassName, "object-cover, object-center")}
             />
           )}
         </div>
@@ -66,7 +66,7 @@ export const BentoGridItem = ({
             <img
               src={spareImg}
               alt={spareImg}
-              className={"object-CgOverflow, object-center w-full h-full"}
+              className={"object-cover, object-center w-full h-full"}
             />
           )}
         </div>
@@ -81,7 +81,7 @@ export const BentoGridItem = ({
           <div className="font-sans font-extralight [#c1c2d3] text-sm md:text-xs lg:text-base z-10">
             {description}
           </div>
-          <div className="font-sans font-bold text-lg mb-2 mt-2">
+          <div className="font-sans font-bold text-lg lg:text-3xl max-w-96 z-10">
           {title}
         </div>
         </div>

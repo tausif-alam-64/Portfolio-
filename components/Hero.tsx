@@ -11,10 +11,10 @@ const Hero = () => {
         fill="white"
       />
       <Spotlight
-        className="-top-10 -left-ful h-[80vh] w-[50vw]"
+        className="top-10 left-ful h-[80vh] w-[50vw]"
         fill="purple"
       />
-      <Spotlight className="-top-28 left-80 h-[80vh] w-[50vw]" fill="blue" />
+      <Spotlight className="top-28 left-80 h-[80vh] w-[50vw]" fill="blue" />
 
       <div className="h-screen w-full dark:bg-black-100 bg-white  dark:bg-grid-white/[0.03] bg-grid-black/[0.2] flex items-center justify-center absolute top-0 left-0">
 
@@ -32,7 +32,7 @@ const Hero = () => {
           />
           
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi, I'am Tausif, a Next.js Developer 
+            Hi, I'am Tausif, a Full stack Developer 
           </p>
           
           <a href="#about">
