@@ -1,6 +1,9 @@
 import { cn } from "@/lib/utils";
 import { BackgroundGradientAnimation } from "./GradientBg";
 import { GlobeDemo } from "./GridGlob";
+import MagicButton from "./MagicButton";
+import { FaCopy } from "react-icons/fa";
+
 
 export const BentoGrid = ({
   className,
@@ -52,7 +55,7 @@ export const BentoGridItem = ({
           "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
       }}
     >
-      <div className={`${id === 6} && 'flex justify-center h-full`}>
+      <div className={`${id === 6 && 'flex justify-center'} h-full`}>
         <div className="w-full h-full absolute">
           {img && (
             <img
@@ -120,6 +123,15 @@ export const BentoGridItem = ({
                 ))}
 
               </div>
+            </div>
+          )}
+
+          { id === 6 && (
+            <div className="mt-5 relative">
+              <div className={`absolute -bottom-6 right-0`}>
+                 
+              </div>
+              <MagicButton title={"nextinbytausif@gmail.com"} icon={<FaCopy />} position={"right"} otherClasses="!bg-[#161a31]"/>
             </div>
           )}
         </div>
