@@ -28,11 +28,11 @@ const Hero = () => {
           </h2>
           <TextGenerateEffect 
             className="text-center text-[40px] md:text-5xl lg:text-6xl"
-            words="Transforming Concepts into Seamless User Experiences"
+            words="Building Scalable, Modern Web Applications"
           />
           
           <p className="text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl">
-            Hi, I'am Tausif, a Full stack Developer 
+            Hi, I'm Tausif — Full Stack Developer | React, Node.js, and Next.js. 
           </p>
           
           <a href="#about">
