@@ -9,9 +9,10 @@ const Footer = () => {
     <footer className='w-full mb-[100px] md:mb-5 pb-10 ' id='contact'>
        <div className='flex flex-col items-center'>
           <h1 className='heading lg:max-w-[45vw]'>
-            Ready to take <span className='text-purple'>your </span> digital presence to the next level?
+            Ready to bring <span className='text-purple'>intelligence and interactivity </span>to your digital product? 
           </h1>
-          <p className='text-white-200 md:mt-10 my-5 text-center'>Reach out to me today let's discuss how I can help you achive your goals.</p>
+          <p className='text-white-200 md:mt-10 my-5 w-[50%] max-sm:w-[90%] text-center'>Let’s collaborate to turn your ideas into powerful full-stack solutions enhanced by AI/ML.
+Reach out today, and let’s explore how I can help you build something exceptional.</p>
           <a href="mailto:nextinbytausif@gmail.com">
             <MagicButton 
             title="let's get in touch"
