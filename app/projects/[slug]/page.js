@@ -14,8 +14,9 @@ export function generateStaticParams() {
   return getAllSlugs();
 }
 
-export function generateMetadata({ params }) {
-  const project = getProjectBySlug(params.slug);
+export async function generateMetadata({ params }) {
+  const { slug } = await params;
+  const project = getProjectBySlug(slug);
   if (!project) return {};
   return {
     title: project.title,
@@ -23,11 +24,12 @@ export function generateMetadata({ params }) {
   };
 }
 
-export default function ProjectDetailPage({ params }) {
-  const project = getProjectBySlug(params.slug);
+export default async function ProjectDetailPage({ params }) {
+  const { slug } = await params;
+  const project = getProjectBySlug(slug);
   if (!project) notFound();
 
-  const { prev, next } = getAdjacentProjects(params.slug);
+  const { prev, next } = getAdjacentProjects(slug);
 
   return (
     <article className="pt-28 pb-16 md:pt-36 md:pb-24">
