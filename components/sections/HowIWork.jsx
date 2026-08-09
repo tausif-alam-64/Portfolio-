@@ -5,19 +5,19 @@ import { useScrollReveal } from '@/hooks/useScrollReveal';
 const PRINCIPLES = [
   {
     label: 'Ships alone',
-    text: 'Design, frontend, backend, database, deployment, client communication — one person, no handoffs, no waiting on someone else.',
+    text: 'Design, frontend, backend, database schema, deployment, client communication — one person, no handoffs, no waiting on someone else.',
+  },
+  {
+    label: 'Owns the full stack',
+    text: 'From PostgreSQL schema design with row-level security to the Vercel deploy, I handle the full build. No context lost between "designer" and "developer."',
+  },
+  {
+    label: 'Profiles, does not guess',
+    text: 'When the dashboard was slow, I traced it end-to-end: fixed a server-side query bottleneck (83% TTFB reduction), then profiled the client-side bundle. I measure before I fix.',
   },
   {
     label: 'Prices like a business',
-    text: 'I quote fixed prices for defined scopes, not hourly rates. Clients know what they are paying before work starts.',
-  },
-  {
-    label: 'Owns the whole stack',
-    text: 'From the Figma mockup to the Vercel deploy, I handle the full build. No context lost between "designer" and "developer."',
-  },
-  {
-    label: 'Builds for the real user',
-    text: 'My clients are shopkeepers and library owners, not other developers. If they cannot use it without a tutorial, it is not done.',
+    text: 'I quote a setup fee and monthly maintenance for defined scopes, not hourly rates. Clients know what they are paying before work starts.',
   },
 ];
 

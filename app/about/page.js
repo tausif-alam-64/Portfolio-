@@ -4,19 +4,28 @@ import Link from 'next/link';
 export const metadata = {
   title: 'About',
   description:
-    'Self-taught full-stack developer based in Kushinagar, UP — building production software for small businesses as a solo developer.',
+    'Full-stack developer based in Lucknow, UP — independently designs, builds, and ships production software for paying clients, including a PostgreSQL-backed library platform in active use.',
 };
 
 const STACK = [
-  'Next.js',
-  'React',
   'JavaScript',
-  'Tailwind CSS',
+  'TypeScript',
+  'Python',
+  'React',
+  'React Native',
+  'Next.js',
+  'Node.js',
+  'Express.js',
+  'PostgreSQL',
+  'MongoDB',
   'Supabase',
+  'Redux Toolkit',
   'Zustand',
-  'Vercel',
-  'Figma',
+  'Tailwind CSS',
+  'Docker',
   'Git',
+  'Vercel',
+  'AWS',
 ];
 
 export default function AboutPage() {
@@ -25,37 +34,42 @@ export default function AboutPage() {
       <div className="container-main max-w-2xl">
         {/* H1 — a real sentence, not just "About me" */}
         <h1 className="type-hero mb-10">
-          A solo developer who builds, prices, and sells real software.
+          I build, price, and ship production software on my own.
         </h1>
 
         {/* Narrative */}
         <div className="space-y-5 mb-14">
           <p className="type-body text-ink-soft">
-            I am Tausif Alam, a self-taught developer based in Kushinagar,
-            Uttar Pradesh. I did not go to a coding bootcamp or study computer
-            science in college. I started by reading documentation, building
-            small tools for myself, and breaking things until I understood how
-            they worked.
+            I am Tausif Alam, a full-stack developer based in Lucknow,
+            Uttar Pradesh. I did not go through a bootcamp. I started by
+            reading documentation, building small tools, and breaking things
+            until I understood how they worked — from React components to
+            neural networks built from scratch in NumPy.
           </p>
           <p className="type-body text-ink-soft">
-            The shift happened when I noticed that small businesses around
-            me — study libraries, sweet shops, schools — were running
-            everything on paper ledgers and phone calls. They had real
-            operational problems that software could solve, but no one was
-            building for them because the budgets are small and the problems
-            are not glamorous. I started doing it anyway.
+            I noticed that small businesses around me — study libraries,
+            restaurants, shops — were running operations on paper ledgers and
+            phone calls. They had real problems that software could solve, but
+            no one was building for them. So I started doing it, and started
+            charging for it.
           </p>
           <p className="type-body text-ink-soft">
-            Now I work solo: I design the interface, write the code, set up the
-            database, deploy to production, price the project, and sit across
-            the table from the client to sell it. No team, no agency, no
-            middleman. The study-library SaaS I built is live and in daily use.
-            The sweets shop catalog is in client review.
+            Now I own the full cycle: I design the interface, write the
+            backend, set up the database schema, deploy to production, price
+            the project (setup fee plus monthly maintenance), and sit across
+            the table from the client to close the deal. The library management
+            platform I built runs on an 11-table PostgreSQL schema with
+            row-level security and handles 56 active seats daily. When
+            the dashboard was slow, I profiled it end-to-end — fixed a
+            server-side bottleneck that cut TTFB by 83%, then traced the
+            remaining lag to a client-side bundle size issue.
           </p>
           <p className="type-body text-ink-soft">
-            The long-term direction is a small lab that combines hardware, AI,
-            and software — but right now, the most useful thing I can do is
-            keep building production tools for people who actually need them.
+            I also build things for myself — a full-stack e-commerce platform,
+            a neural network from scratch. The long-term direction is a lab
+            that combines hardware, AI, and software. Right now, the most
+            useful thing I can do is keep shipping production tools for people
+            who actually need them.
           </p>
         </div>
 

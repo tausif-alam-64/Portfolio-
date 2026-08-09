@@ -6,7 +6,7 @@ import StatusBadge from '@/components/ui/StatusBadge';
 export const metadata = {
   title: 'Work',
   description:
-    'Production web software built for real businesses — study libraries, retail, and education in Uttar Pradesh.',
+    'Production web software and full-stack builds — library management, restaurant ordering, and e-commerce.',
 };
 
 export default function ProjectsPage() {
@@ -18,10 +18,9 @@ export default function ProjectsPage() {
           <p className="type-eyebrow mb-4">Work</p>
           <h1 className="type-hero mb-6">Selected work</h1>
           <p className="type-body text-ink-soft">
-            Each of these is a production build for a real business or
-            institution — not a tutorial, not a clone. The common thread is
-            vertical-specific software for small operations that were running on
-            notebooks and phone calls before.
+            Client work and independent builds. The first two are production
+            software for paying clients in Uttar Pradesh. The third is a
+            full-stack personal project built to the same standard.
           </p>
         </div>
 

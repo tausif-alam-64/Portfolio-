@@ -16,7 +16,7 @@ export const metadata = {
     default: 'Tausif Alam — Full-Stack Developer',
   },
   description:
-    'I build production web software for small businesses. Currently live for a study-library network and a sweets shop in Uttar Pradesh.',
+    'Full-stack developer who independently builds and ships production software — currently running a PostgreSQL-backed library platform and a restaurant ordering site for paying clients.',
 };
 
 export default function RootLayout({ children }) {

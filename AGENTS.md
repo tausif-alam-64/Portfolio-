@@ -1,7 +1,7 @@
 # AGENTS.md
 
 ## Project
-Personal developer portfolio — showcases production client work (Study Zone library SaaS, Gokul Sweets, Kisan Inter College) to hiring managers and freelance clients simultaneously.
+Personal developer portfolio — showcases production client work (Gyaan Study Library, Gokul Sweets restaurant ordering) and a personal full-stack build (Blinkit e-commerce) to hiring managers and freelance clients simultaneously.
 
 ## Stack — do not change without asking first
 - Next.js 15, App Router only (no `pages/`)

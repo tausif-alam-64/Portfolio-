@@ -10,18 +10,18 @@ const INTENTS = [
 const CONTACT_INFO = [
   {
     label: 'Email',
-    href: 'mailto:tausif@example.com',
-    display: 'tausif@example.com',
+    href: 'mailto:tausifalam87654321@gmail.com',
+    display: 'tausifalam87654321@gmail.com',
   },
   {
     label: 'WhatsApp',
-    href: 'https://wa.me/919876543210',
-    display: '+91 98765 43210',
+    href: 'https://wa.me/917007979770',
+    display: '+91 70079 79770',
   },
   {
     label: 'LinkedIn',
-    href: 'https://linkedin.com/in/tausif-alam',
-    display: 'linkedin.com/in/tausif-alam',
+    href: 'https://linkedin.com/in/tausif-alam-1935922a8',
+    display: 'linkedin.com/in/tausif-alam-1935922a8',
   },
   {
     label: 'GitHub',
@@ -58,7 +58,7 @@ export default function ContactForm() {
           : `Budget range: ${form.budget}`
       }\n\n${form.message}`
     );
-    window.location.href = `mailto:tausif@example.com?subject=${subject}&body=${body}`;
+    window.location.href = `mailto:tausifalam87654321@gmail.com?subject=${subject}&body=${body}`;
   };
 
   const inputBase =

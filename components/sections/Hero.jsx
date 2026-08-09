@@ -35,7 +35,7 @@ export default function Hero() {
       <div className="container-main max-w-3xl" ref={containerRef}>
         {/* Eyebrow */}
         <p className="hero-stagger type-eyebrow mb-5">
-          Full-stack developer · Kushinagar, UP
+          Full-stack developer · Lucknow, UP
         </p>
 
         {/* H1 */}
@@ -47,8 +47,8 @@ export default function Hero() {
         <div className="hero-stagger">
           <p className="font-sans text-ink-soft text-base md:text-lg leading-relaxed mb-8 max-w-[60ch]">
             I design, build, price, and support production web software alone —
-            currently live for a study-library network and a sweets shop in
-            Uttar Pradesh.
+            currently running a PostgreSQL-backed library platform and a
+            restaurant ordering site for paying clients in Uttar Pradesh.
           </p>
 
           <div className="flex flex-wrap items-center gap-4 mb-12">
